@@ -1,0 +1,2 @@
+# checkers
+Jeux de dames
