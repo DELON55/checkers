@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulaire inscription</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="modele_page_accueil_et_formulaire.css">
+	</head>
+	<body style=background-image:url("fond.png")>
+        <div class="fond">
+            <form action="/req_inscrire" method="GET">
+                <div class="logo">
+                    <img src ='justlogo.png'
+                    height="400px"
+                    width="400px"/>
+                </div>
+                <div class="zonetext">
+                    <input type="text" name="pseudo" value="{{ pseudo }}">
+                    <br/>
+                    <input type="password" placeholder="Mot de passe"  name="password" value="">
+                    <br/>
+                </div>
+					<button class="button-71" role="button" value="creer">Créer</button>
+				</form>
+        </div>
+	</body>
+</html>

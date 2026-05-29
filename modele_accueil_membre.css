@@ -1,0 +1,84 @@
+.text {
+       margin: auto;
+         width: 70%;
+         color:white;
+         height:80%;
+         text-align:center;
+		 color: black;
+         font-size: 25px;
+         
+
+     }
+  
+    body {
+        background-image:url("fond.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+  
+   
+    .jeu {
+        background-color:gold;
+		border-radius: 25px;
+        font-size : 25px;
+        margin:150px;
+        position:relative;
+        top:-300px;
+        color:black;
+		border: 3px solid black;
+
+        }
+ /*.jeu:hover{
+     background:brown;
+      }*/
+ 
+  
+ 
+    .logo{
+       text-align:center;
+       margin :150px;
+      position:relative;
+       top:-150px
+       }
+      
+     
+	 a{
+	 text-decoration:none;
+	 
+	 }
+ 
+   .joueur-1 {
+     background-color:brown;
+	border-radius:250px;
+     position:relative;
+     top:-520px;
+     font-size :25px;
+      width :220px;
+      float:left;
+     margin :120px;
+    border: 3px solid black;
+	color:white
+
+	  
+   }
+   .joueur-1:hover{
+	background-color:gold;
+   }
+  
+  
+  .joueur-2 {
+
+
+   background-color:brown;
+   border-radius:250px;
+   position:relative;
+   top:-520px;
+   font-size : 25px;
+	width :220px;
+    float:right;
+    margin : 120px;
+    border: 3px solid black;
+   }
+   .joueur-2:hover{
+   background-color:gold;
+    }					   

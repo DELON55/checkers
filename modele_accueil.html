@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Accueil</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="modele_page_accueil_et_formulaire.css">
+	</head>
+	<body style=background-image:url("fond.png")>
+		<div class="fond">
+			<form action="/req_identifier" method="GET">
+				<div class="logo">
+					<img src ='justlogo.png'
+					height="400"
+					width="400"/>
+				</div>
+				<div class="zonetext">
+					<input type="text" name="pseudo" value="{{ pseudo }}">
+					<br/>
+					<input type="password" placeholder="Mot de passe" name="password" value="">
+					<br/>
+				</div>
+				 <button class="button-71" role="button">Se connecter</button>
+				 </form>
+				  <a href="/req_afficher_formulaire_inscription"><button class="button-71" role="button">Créer</button></a>
+		</div>
+	</body>
+</html>
